@@ -1,0 +1,18 @@
+data:
+  input_type: "video"  # 设置数据集类型，可选择 "video" 或 "image"
+
+  # 图像数据集参数
+  image:
+    image_dir: "/path/to/your/images"  # 图像数据集的目录
+
+  # 视频数据集参数
+  video:
+    video_url: "https://media.roboflow.com/milk.zip"  # 视频数据集下载 URL
+    video_dir: "/path/to/your/videos"  # 下载并解压后的视频存储路径
+    frame_stride: 10  # 从视频中提取帧的步幅
+
+  # 数据集输出
+  dataset_dir: "/path/to/your/dataset"  # 输出标注数据集的路径
+
+ontology:
+  "milk bottle": "bottlecap"  # 标签映射

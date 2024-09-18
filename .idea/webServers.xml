@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="466e38b1-ce0c-47d3-be0e-39033509a393" name="教三楼服务器">
+        <fileTransfer rootFolder="/home/data2/lujianfeng" accessType="SFTP" host="10.99.16.11" port="22" sshConfigId="3cb3673a-fbdb-4da3-b672-ffa8f5e8f6ec" sshConfig="lujianfeng@10.99.16.11:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
